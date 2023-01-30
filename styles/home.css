@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap');
+
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+nav
+{
+    display: flex;
+ }
+ h3{
+        margin-left: 15px;
+        padding-top: 15px;
+        color:blue;
+        font-weight:bolder;
+        font-size: 22px;
+        text-decoration: underline;
+    }
+#main{
+height: 220px;
+width: auto;
+background-color: rgb(199, 246, 230);
+margin-left: 15px;
+padding-left: 25px;
+padding-top: 45px;
+}
+#main img{
+margin-top: 25px;
+margin-left: 80%;
+}
+h1{
+    font-size: 40px;
+    margin-top: -110px;
+}
+p{
+    margin-top: -110px;
+color: white;
+font-size: 15px;
+}
+h4{
+    margin-left: 15px;
+
+}
+h5{
+    margin-left: 15px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#gallery{
+    height: 180px;
+    width: 95%;
+    margin-left: 15px;
+    background-color:rgb(252, 249, 246);
+    display:flex;
+    position:fixed;
+    justify-content:space-around;
+    border-radius: 7px;
+}
+
+#gallery1{
+text-align: center;
+border-radius: 7px;
+}
+#gallery1:hover{
+    transform:rotate(65deg);
+}
+
+h3:hover{
+    color: orangered;}
+    p:hover{
+        color: black;
+        font-size: 22px;
+
+    }
+    h1:hover{
+        color: blueviolet;
+    }
+    h2:hover{
+        color: brown;
+    }
+    
